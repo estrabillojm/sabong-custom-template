@@ -1,0 +1,60 @@
+.additional-buttons-cont{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap:5px;
+    margin:20px 0 40px 0;
+}
+
+.additional-buttons-cont button{
+    width:100%;
+    padding:10px 0;
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+    border:none;
+    transition: all .3s ease;
+}
+
+.additional-buttons-cont button:hover{
+    opacity:.7;
+}
+
+.button-1{
+    background: #ee1c25;
+}
+
+.button-2{
+    background: #f15b29;
+}
+
+.button-3{
+    background: #f7941d;
+}
+
+.button-4{
+    background: #fab140;
+}
+
+.button-5{
+    background: #2db573;
+}
+
+.button-6{
+    background: #01a89e;
+}
+
+.button-7{
+    background: #28abe3;
+}
+
+.button-8{
+    background: #1b76bc;
+}
+
+@media screen and (max-width:768px){
+    .additional-buttons-cont{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+

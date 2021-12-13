@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "montserrat";
+    font-size:17px;
+}
+
+body{
+    background: #222222;
+    position:relative;
+}
+
+.main-container{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.full-container{
+    position:absolute;
+    height:130px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.winner-alert h2{
+    color:white;
+    padding:13px 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border:2px solid yellow;
+}
+
+.meron-wins h2{
+    background: #f52120;
+}
+
+.wala-wins h2{
+    background: #2361ea;
+}
+
+@media screen and (max-width:768px){
+    *{
+        margin:0;
+        padding:0;
+        font-family: "montserrat";
+        font-size:14px;
+    }
+
+    
+.main-container{
+   padding: 0 10px;
+}
+
+    .full-container{
+        height:160px;
+    }
+}
